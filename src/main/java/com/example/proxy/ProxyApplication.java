@@ -21,9 +21,9 @@ public class ProxyApplication {
 		SpringApplication.run(ProxyApplication.class, args);
 	}
 
-//	@Bean
-//	public PasswordEncoder passwordEncoder(){
-//		return NoOpPasswordEncoder.getInstance();
-//	}
+	@Bean
+	public PasswordEncoder passwordEncoder(){
+		return NoOpPasswordEncoder.getInstance();
+	}
 
 }
